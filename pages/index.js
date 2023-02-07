@@ -9,6 +9,7 @@ function HomePage(props) {
     </ul>
   );
 }
+
 export async function getStaticProps() {
   return {
     props: {
@@ -16,4 +17,5 @@ export async function getStaticProps() {
     },
   };
 }
+
 export default HomePage;
