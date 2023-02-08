@@ -1,3 +1,5 @@
+import fs from "fs";
+
 function HomePage(props) {
   const { products } = props;
 
